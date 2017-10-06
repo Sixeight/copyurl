@@ -1,0 +1,17 @@
+{
+  "name": "copyurl",
+  "description" : "Copy URL as some format.",
+
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "permissions": [
+    "contextMenus",
+    "clipboardRead"
+  ],
+
+  "background": {
+    "scripts": ["menu.js"]
+  }
+}
+
